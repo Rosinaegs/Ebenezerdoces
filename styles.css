@@ -1,0 +1,165 @@
+/* Estilos gerais */
+body {
+    background-color: #ffcccb; /* Cor rosa claro */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilos do header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.capa img.logo {
+    width: 150px; /* Tamanho da logo */
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto-capa h1 {
+    margin: 10px 0;
+    font-size: 2rem;
+}
+
+.texto-capa p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #25d366; /* Cor do WhatsApp */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.social-links a.instagram {
+    background-color: #e1306c; /* Cor do Instagram */
+}
+
+/* Estilos da seção de produtos */
+#produtos {
+    padding: 20px;
+    text-align: center;
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100px; /* Tamanho das imagens dos produtos */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.produto p {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilos da seção de ovos de colher */
+#ovos-colher {
+    padding: 20px;
+    text-align: center;
+}
+
+.imagem-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8f8f8;
+}
+
+/* Estilos para as imagens dos tamanhos dos Ovos de Colher */
+.tamanho-imagem {
+    width: 100px; /* Tamanho fixo para as imagens */
+    height: 100px;
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border-radius: 10px; /* Borda arredondada */
+    margin-top: 10px; /* Espaçamento acima da imagem */
+    display: block; /* Garante que a imagem fique em uma linha separada */
+}
+
+/* Estilos da seção de combos */
+#combos {
+    padding: 20px;
+    text-align: center;
+}
+
+#combos ul {
+    list-style: none;
+    padding: 0;
+}
+
+#combos ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+#combos ul li a {
+    color: #25d366;
+    text-decoration: none;
+}
+
+/* Estilos para as imagens dos Combos */
+.combo-imagem {
+    width: 150px; /* Tamanho fixo para as imagens dos combos */
+    height: 150px;
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    border-radius: 10px; /* Borda arredondada */
+    margin-top: 10px; /* Espaçamento acima da imagem */
+    display: block; /* Garante que a imagem fique em uma linha separada */
+}
+
+/* Estilos do footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
